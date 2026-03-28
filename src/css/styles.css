@@ -15,4 +15,149 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 
+.back-link {
+  margin-bottom: 20px;
+}
 
+#datetime-picker.flatpickr-input {
+  width: 272px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.2s;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#datetime-picker.flatpickr-input:hover,
+#datetime-picker.flatpickr-input:focus {
+  border: 1px solid #4e75ff;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #989898;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #cfcfcf;
+}
+
+button:focus {
+  border-radius: 8px;
+  padding: 8px 16px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4e75ff;
+}
+
+button:hover {
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #6c8cff;
+}
+
+.timer {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+  text-align: center;
+}
+/*!==============*/
+.form {
+  margin-top: 24px;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label-class {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input[type='number'] {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+fieldset {
+  width: 360px;
+  padding: 16px;
+  margin-top: 16px;
+  box-sizing: border-box;
+}
+
+.submit {
+  margin-top: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+}
